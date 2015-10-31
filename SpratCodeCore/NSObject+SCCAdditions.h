@@ -10,7 +10,7 @@
 
 @interface NSObject (SpratCodeCore)
 
-
+/// This method returns self for all objects except instances of NSNull
 - (instancetype)nullFilter_scc;
 
 @end
