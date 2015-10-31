@@ -21,3 +21,6 @@ FOUNDATION_EXPORT const unsigned char SpratCodeCoreVersionString[];
 
 #import <SpratCodeCore/SCCKVObserver.h>
 
+#import <SpratCodeCore/NSArray+SCCAdditions.h>
+#import <SpratCodeCore/SCCArrayController.h>
+
