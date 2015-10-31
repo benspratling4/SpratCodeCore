@@ -17,6 +17,8 @@
 		B5402E741BE57420000EA3DD /* SCCKVObserver_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B5402E711BE57420000EA3DD /* SCCKVObserver_Private.h */; };
 		B5402E751BE57420000EA3DD /* SCCKVObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = B5402E721BE57420000EA3DD /* SCCKVObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5402E761BE57420000EA3DD /* SCCKVObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B5402E731BE57420000EA3DD /* SCCKVObserver.m */; };
+		B5402E7B1BE57649000EA3DD /* NSArray+SCCAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B5402E791BE57649000EA3DD /* NSArray+SCCAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5402E7C1BE57649000EA3DD /* NSArray+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		B5402E711BE57420000EA3DD /* SCCKVObserver_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCKVObserver_Private.h; sourceTree = "<group>"; };
 		B5402E721BE57420000EA3DD /* SCCKVObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCKVObserver.h; sourceTree = "<group>"; };
 		B5402E731BE57420000EA3DD /* SCCKVObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCKVObserver.m; sourceTree = "<group>"; };
+		B5402E791BE57649000EA3DD /* NSArray+SCCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SCCAdditions.h"; sourceTree = "<group>"; };
+		B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SCCAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +89,14 @@
 		B5402E4D1BE570BD000EA3DD /* SpratCodeCore */ = {
 			isa = PBXGroup;
 			children = (
+				B5402E791BE57649000EA3DD /* NSArray+SCCAdditions.h */,
+				B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */,
 				B5402E671BE57105000EA3DD /* NSNull+SCCAdditions.h */,
 				B5402E681BE57105000EA3DD /* NSNull+SCCAdditions.m */,
 				B5402E691BE57105000EA3DD /* NSObject+SCCAdditions.h */,
 				B5402E6A1BE57105000EA3DD /* NSObject+SCCAdditions.m */,
-				B5402E711BE57420000EA3DD /* SCCKVObserver_Private.h */,
 				B5402E721BE57420000EA3DD /* SCCKVObserver.h */,
+				B5402E711BE57420000EA3DD /* SCCKVObserver_Private.h */,
 				B5402E731BE57420000EA3DD /* SCCKVObserver.m */,
 				B5402E501BE570BD000EA3DD /* SpratCodeCore.h */,
 				B5402E4E1BE570BD000EA3DD /* Supporting Files */,
@@ -132,6 +138,7 @@
 			files = (
 				B5402E751BE57420000EA3DD /* SCCKVObserver.h in Headers */,
 				B5402E741BE57420000EA3DD /* SCCKVObserver_Private.h in Headers */,
+				B5402E7B1BE57649000EA3DD /* NSArray+SCCAdditions.h in Headers */,
 				B5402E511BE570BD000EA3DD /* SpratCodeCore.h in Headers */,
 				B5402E6D1BE57105000EA3DD /* NSObject+SCCAdditions.h in Headers */,
 				B5402E6B1BE57105000EA3DD /* NSNull+SCCAdditions.h in Headers */,
@@ -237,6 +244,7 @@
 				B5402E6E1BE57105000EA3DD /* NSObject+SCCAdditions.m in Sources */,
 				B5402E761BE57420000EA3DD /* SCCKVObserver.m in Sources */,
 				B5402E6C1BE57105000EA3DD /* NSNull+SCCAdditions.m in Sources */,
+				B5402E7C1BE57649000EA3DD /* NSArray+SCCAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
