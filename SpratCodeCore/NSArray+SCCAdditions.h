@@ -29,7 +29,7 @@
 
 //Objects must be unique strings
 - (SCCChangeSet *)changesetFromArray_scc:(NSArray *)originalArray;
-//object may be BSCChangeSet or BSCMovedChangeSet
+//object may be BSCChangeSet or SCCChangeSet
 
 /// While it uses the 'uniqueKeyPath' to determine which objects have been inserted removed, etc...  it uses the -isEqual: method to determine if the object needs to be reloaded
 - (SCCChangeSet *)changesetFromArray_scc:(NSArray *)originalArray uniqueKeyPath:(NSString *)uniqueKeyPath;
