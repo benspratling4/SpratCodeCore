@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char SpratCodeCoreVersionString[];
 #import <SpratCodeCore/NSObject+SCCAdditions.h>
 #import <SpratCodeCore/NSNull+SCCAdditions.h>
 
+#import <SpratCodeCore/SCCKVObserver.h>
+
