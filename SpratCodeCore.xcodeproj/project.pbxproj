@@ -21,6 +21,8 @@
 		B5402E7C1BE57649000EA3DD /* NSArray+SCCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */; };
 		B5402E7F1BE57828000EA3DD /* SCCArrayController.h in Headers */ = {isa = PBXBuildFile; fileRef = B5402E7D1BE57828000EA3DD /* SCCArrayController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5402E801BE57828000EA3DD /* SCCArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5402E7E1BE57828000EA3DD /* SCCArrayController.m */; };
+		B5402E831BE580B3000EA3DD /* NSData+SpratCodeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B5402E811BE580B3000EA3DD /* NSData+SpratCodeCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5402E841BE580B3000EA3DD /* NSData+SpratCodeCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B5402E821BE580B3000EA3DD /* NSData+SpratCodeCore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SCCAdditions.m"; sourceTree = "<group>"; };
 		B5402E7D1BE57828000EA3DD /* SCCArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCArrayController.h; sourceTree = "<group>"; };
 		B5402E7E1BE57828000EA3DD /* SCCArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCArrayController.m; sourceTree = "<group>"; };
+		B5402E811BE580B3000EA3DD /* NSData+SpratCodeCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SpratCodeCore.h"; sourceTree = "<group>"; };
+		B5402E821BE580B3000EA3DD /* NSData+SpratCodeCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SpratCodeCore.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				B5402E7E1BE57828000EA3DD /* SCCArrayController.m */,
 				B5402E791BE57649000EA3DD /* NSArray+SCCAdditions.h */,
 				B5402E7A1BE57649000EA3DD /* NSArray+SCCAdditions.m */,
+				B5402E811BE580B3000EA3DD /* NSData+SpratCodeCore.h */,
+				B5402E821BE580B3000EA3DD /* NSData+SpratCodeCore.m */,
 				B5402E671BE57105000EA3DD /* NSNull+SCCAdditions.h */,
 				B5402E681BE57105000EA3DD /* NSNull+SCCAdditions.m */,
 				B5402E691BE57105000EA3DD /* NSObject+SCCAdditions.h */,
@@ -142,6 +148,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5402E831BE580B3000EA3DD /* NSData+SpratCodeCore.h in Headers */,
 				B5402E751BE57420000EA3DD /* SCCKVObserver.h in Headers */,
 				B5402E741BE57420000EA3DD /* SCCKVObserver_Private.h in Headers */,
 				B5402E7F1BE57828000EA3DD /* SCCArrayController.h in Headers */,
@@ -253,6 +260,7 @@
 				B5402E761BE57420000EA3DD /* SCCKVObserver.m in Sources */,
 				B5402E6C1BE57105000EA3DD /* NSNull+SCCAdditions.m in Sources */,
 				B5402E7C1BE57649000EA3DD /* NSArray+SCCAdditions.m in Sources */,
+				B5402E841BE580B3000EA3DD /* NSData+SpratCodeCore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
 //  SCCKVObserver_Private.h
-//  BSCommon
+//  SpratCodeCore
 //
 //  Created by Ben Spratling on 3/21/14.
 //  Copyright (c) 2014 Ben Spratling. All rights reserved.
